@@ -1,0 +1,209 @@
+:root{
+    --primary:#edf7f0;
+    --heading:#000000;
+    --text:#756f6f;
+    --link:#00bcd9;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family:'Roboto', sans-serif;
+}
+body{
+    min-height: 100vh;
+    position:relative;
+    
+}
+
+.container p{
+/*    padding:2rem;*/
+    line-height:1.5;
+}
+#resume{
+    color:var(--text);
+}
+
+
+.profile h1{
+    text-align:center;
+    font-size:8rem;
+    font-weight:300;
+    margin-top:2rem;
+    color:var(--heading);
+    
+}
+
+.profile .intro p{
+    text-align:center;
+    margin-top:-0.8rem;
+    color:var(--text);
+    font-weight:100;
+}
+
+.profile-image{
+    max-width:70%;
+/*    border:1px solid black;*/
+    margin:2rem auto;
+}
+    
+
+.profile-image img{
+    width:100%;
+    border-radius:50%;
+    }
+
+/*
+.little-about-me{
+    padding:1rem;
+    f
+}
+*/
+.hero{
+    padding:0 1rem;
+}
+
+/*
+.little-about-me h1{
+    font-size:3rem;
+    font-weight:400;
+    margin:1rem 0;
+}
+.little-about-me p{
+    font-weight:500;
+    font-size:18px;
+}
+*/
+
+.hero h1{
+    font-size:3rem;
+    font-weight:300;
+    margin:1.5rem 0;
+}
+
+.hero p{
+    font-size:18px;
+    color:var(--text);
+    font-weight:300;
+/*    line-height:1.5;*/
+}
+
+.my-skills ul{
+    list-style-type:none;
+    font-size:18px;
+    color:var(--text);
+    font-weight:300;
+    line-height:1.5;
+}
+
+.tech ul{
+    list-style-type:none;
+}
+
+.tech ul li img{
+    max-width:200px;
+}
+
+.education{
+    margin-top:2rem;
+    margin-bottom:1rem;
+}
+
+.education h2{
+    font-weight:300;
+    }
+
+.education p{
+    margin-bottom:1rem;
+}
+
+.self-projects{
+    margin:2rem 0;
+}
+
+.self-projects ul{
+    list-style-type:none;
+}
+
+
+.self-projects ul li{
+    font-size:18px;
+    font-weight:300;
+    line-height:1.5;
+}
+.blogs{
+    margin-bottom:2rem;
+}
+
+.blogs ol{
+    margin-left:20px;
+}
+
+.blogs ol li{
+    line-height:1.5;
+    font-weight:300;
+}
+
+.blogs ol li a{
+    text-decoration:none;
+}
+
+.connect{
+    margin:2rem 0;
+    padding:0 1rem;
+    
+}
+
+.connect h2{
+    font-size:2rem;
+    font-weight:300;
+}
+.connect .social{
+    margin:1rem 0;
+    display:flex;
+}
+
+.social div img{
+   max-width:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
