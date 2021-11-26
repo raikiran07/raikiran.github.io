@@ -17,6 +17,8 @@ html{
 body{
     min-height: 100vh;
     position:relative;
+    /* overflow:hidden; */
+    /* overflow-x: hidden; */
     
 }
 
@@ -102,10 +104,17 @@ body{
 
 .tech ul{
     list-style-type:none;
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+}
+.tech ul li{
+    
 }
 
 .tech ul li img{
-    max-width:200px;
+    width:150px;
 }
 
 .education{
