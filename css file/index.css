@@ -174,7 +174,7 @@ body{
 
 /* for mobile compatibility */
 
-@media (max-width : 480px){
+@media (max-width : 600px){
     .profile-image{
         max-width:70%;
     }
