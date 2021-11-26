@@ -104,17 +104,21 @@ body{
 
 .tech ul{
     list-style-type:none;
-    display:flex;
-    flex-wrap:wrap;
+     display:flex;
+   flex-wrap:wrap;
+   /* border:1px solid black; */
     
     
 }
 .tech ul li{
-    
+    /* border:1px solid black; */
+}
+.tech ul li p{
+    text-align:center;
 }
 
 .tech ul li img{
-    width:150px;
+    max-width:200px;
 }
 
 .education{
@@ -187,6 +191,13 @@ body{
     .profile-image{
         max-width:70%;
     }
+    .tech ul{
+        flex-direction:column;
+    }
+    .tech ul li p{
+        display:none;
+    }
+   
 }
 
 
