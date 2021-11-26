@@ -46,7 +46,7 @@ body{
 }
 
 .profile-image{
-    max-width:70%;
+    max-width:30%;
 /*    border:1px solid black;*/
     margin:2rem auto;
 }
@@ -172,7 +172,13 @@ body{
 }
 
 
+/* for mobile compatibility */
 
+@media (max-width : 480px){
+    .profile-image{
+        max-width:70%;
+    }
+}
 
 
 
