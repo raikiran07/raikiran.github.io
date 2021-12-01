@@ -22,6 +22,16 @@ body{
     
 }
 
+body a{
+    color:rgb(14, 211, 211);
+    text-decoration:none;
+}
+
+body a:hover{
+    cursor:pointer;
+    
+}
+
 .container p{
 /*    padding:2rem;*/
     line-height:1.5;
@@ -66,7 +76,10 @@ body{
 }
 */
 .hero{
+    /* width:100%;
+    background:grey; */
     padding:0 2rem;
+    background:1px solid black;
 }
 
 /*
@@ -101,19 +114,75 @@ body{
     font-weight:300;
     line-height:1.5;
 }
+.tech{
+    margin:3rem 0;
+}
 
 .tech ul{
+    /* margin-top:2rem; */
     list-style-type:none;
-     display:flex;
-   flex-wrap:wrap;
+     /* display:flex;
+   flex-wrap:wrap; */
    /* border:1px solid black; */
     
     
 }
 .tech ul li{
     /* border:1px solid black; */
+    display:flex;
+    align-items:center;
+}
+.tech ul li .container{
+    width:60%;
+    background:white;
+    border:1px solid black;
+    height:50px;
+    margin-left:6rem;
+    color:white;
+    
+}
+.tech ul li .container .cprogramming{
+    width:80%;
+    background:grey;
+    text-align:right;
+    height:100%;
+    padding:13px 5px;
+}
+.tech ul li .container .html{
+    width:90%;
+    background:grey;
+    text-align:right;
+    height:100%;
+    padding:13px 5px;
+}
+.tech ul li .container .css{
+    width:80%;
+    background:grey;
+    text-align:right;
+    height:100%;
+    padding:13px 5px;
+}
+.tech ul li .container .javascript{
+    width:50%;
+    background:grey;
+    text-align:right;
+    height:100%;
+    padding:13px 5px;
+}
+.tech ul li .container .python{
+    width:70%;
+    background:grey;
+    text-align:right;
+    height:100%;
+    padding:13px 5px;
 }
 .tech ul li p{
+    
+}
+.tech ul li .skill-img-box{
+    width:200px;
+    height:auto;
+    /* border:2px solid blue; */
     text-align:center;
 }
 
@@ -147,16 +216,20 @@ body{
     font-size:18px;
     font-weight:300;
     line-height:1.5;
+   
+}
+.self-projects ul li a{
+    text-decoration:none;
 }
 .blogs{
     margin-bottom:2rem;
 }
 
-.blogs ol{
-    margin-left:20px;
+.blogs ul{
+    list-style-type:none;
 }
 
-.blogs ol li{
+.blogs ul li{
     line-height:1.5;
     font-weight:300;
 }
@@ -166,18 +239,30 @@ body{
 }
 
 .connect{
-    margin:2rem 0;
-    padding:0 1rem;
+    margin-top:3rem;
+    /* padding:0 1rem; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:whitesmoke;
     
 }
 
 .connect h2{
-    font-size:2rem;
+    font-size:2.5rem;
     font-weight:300;
+    padding-top:1rem;
 }
 .connect .social{
     margin:1rem 0;
     display:flex;
+}
+.social div{
+    margin-left:1.5rem;
+}
+.social div:first-child{
+    margin-left:0;
 }
 
 .social div img{
@@ -192,11 +277,13 @@ body{
         max-width:70%;
     }
     .tech ul{
-        flex-direction:column;
+        /* flex-direction:column; */
     }
     .tech ul li p{
         display:none;
     }
+    
+    
    
 }
 
